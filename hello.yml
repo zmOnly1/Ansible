@@ -7,4 +7,4 @@
     - name: first tasks
       debug: msg="Hello Ansible"
     - name: second tasks
-      debug: msg="hostname"
+      shell: hostname
