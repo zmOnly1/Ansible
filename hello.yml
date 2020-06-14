@@ -1,7 +1,10 @@
 ---
 
 - hosts: localhost
+  father_facts: false
   
   tasks:
     - name: first tasks
       debug: msg="Hello Ansible"
+    - name: second tasks
+      debug: msg="hostname"
